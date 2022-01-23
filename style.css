@@ -1,0 +1,77 @@
+/* cc3 */
+* {
+	font-size: 30px;
+}
+body {
+	background-color:#DFDDCE ;
+	/* or we can do this background-image:url("");*/
+}
+/* cc4
+h2, span{
+	font-family:monospace;
+} */
+
+span {
+	color: rgb(149, 5, 29);
+}
+/* cc1 */
+#i1 {
+	color: darkblue; 
+}
+.c1 {
+	color: forestgreen;
+}
+h2.c2 { /* cc2 */
+	color:olive ;
+}
+div .c3 {
+	border-style: groove;
+	border-color: rgb(31, 31, 212);
+	border-width: 4px;
+}
+div .cn { /* cc6 */
+	border-style: groove;
+	border-color: rgb(31, 31, 212);
+	border-width: 4px;
+	border-radius: 6px;
+}
+div .c4 { /* cc5 */
+	border-left-style: dotted;
+	border-left-color: red;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-top-color: darkblue;
+	border-top-width: 2px;
+	border-right-style: dashed;
+	border-right-color: darkred;
+	border-right-width: 4px;
+	border-bottom-style: groove;
+	border-bottom-color: darkorchid;
+	border-bottom-width: 2px;
+}
+div .c5 {
+	border-left: 5px dashed red;
+}
+.c6 {    /* cc7 */
+	width: 400;
+	height: 300;
+	background-color: darkslategray;
+	margin: 10px 0 0 170px;
+}
+
+.c7 {
+	width: 400;
+	height: 200;
+	background-color: violet;
+	margin: auto;
+}
+.c8 { /* cc8 */
+	border: 2px solid red;
+	padding: 40px 0 20px 30px;
+}
+#c9 { /* cc9 */
+	outline: 3px solid red;
+	border: 2px dotted blue;
+	outline-offset: 7px;
+	padding: 10px;
+}
