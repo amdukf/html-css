@@ -75,3 +75,22 @@ div .c5 {
 	outline-offset: 7px;
 	padding: 10px;
 }
+.c10 { /*cc10*/
+	color: darkblue;
+	text-align: right;
+	text-decoration: underline;
+}
+.c11 { /*cc11*/
+	text-indent: 30px;
+	letter-spacing: 3px;
+}
+#c12 { /*cc12*/
+	color: black;
+	text-align: center;
+	text-shadow: 4px 4px blue;
+}
+#c13 {
+	color: black;
+	text-align: center;
+	text-shadow: 4px 4px 4px red; /* I */
+}

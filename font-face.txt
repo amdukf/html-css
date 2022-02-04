@@ -1,0 +1,6 @@
+
+@font-face {
+	font-family: 'isans';
+	src: url('font/IRANSans-Bold.eot') format('eot'),  /* IE6–8 */ url('font/IRANSans-Bold.woff2') format('woff2'),  /* Chrome36+, Opera24+*/ url('font/IRANSans-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: bold;
+}
