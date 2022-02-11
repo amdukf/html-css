@@ -94,17 +94,31 @@ div .c5 {
 	text-align: center;
 	text-shadow: 4px 4px 4px red; /* I */
 }
-
-
-
-
-
-
-
-
-
-
-
+/* cc13 */
+#c14 {
+    display: inline
+}
+li {
+	list-style-type: none;
+	display: inline;
+}
+div.madar {
+	background-color: cadetblue;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+	padding: 1px;
+	margin: 10px auto;
+	position: relative;
+}
+div.farzand {
+	background-color: azure;
+	padding: 7px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
 
 
 

@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif
+}
+table {
+    width: 80%;
+    border-spacing: 4px;
+    margin: 0 auto
+}
+td {
+    border: 2px solid black;
+}
+td {
+    padding: 2px;
+    text-align: center
+}
+th {
+    background-color:dimgrey;
+    color: aliceblue;
+    padding: 5px;    
+}
+tr:nth-child(even):hover {
+    background-color: forestgreen;
+}
+tr:nth-child(odd):hover {
+    background-color: crimson;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
