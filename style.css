@@ -119,19 +119,67 @@ div.farzand {
 	right: 0;
 	left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.c15 { /* cc14 */
+	background-color: yellow;
+	padding: 2px;
+	height: 150px;
+	overflow: scroll;
+}
+img {
+	width: 150px;
+	height: auto;
+	float: right;
+}
+.c16 {
+	background-color: chocolate;
+	width: 300px;
+	height: auto;
+	display: inline-block;
+	margin: 12px 122px;
+}
+.test {
+	background-image: url(carl.jpg);
+}
+.border { /* border image */
+	padding: 2px;
+	border: 21px solid transparent;
+	border-image: url(border.png) 30 round;
+}
+#cc16, #cc17, #cc18 { /* cc16 */
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	margin: 3px;
+}
+div>p {
+	color: blue;
+/* در اینجا پی تگ مادر هست که در دیو هست و آن را فراخوانی کردیم*/
+/* دیو اولی تگ مادر ما تگ بی هست */
+}
+div+p {
+	color: red;
+/*در اینجا اولین تگ پی که بعد از دیو بود را فراخوانی کردیم */
+/* code 1 */
+}
+p[title] {
+	color: aliceblue;
+	background-color: goldenrod;
+/* اینجا فقط اونایی انتخاب شدن که اتریبیوت تایتل دارن */
+/* میتونیم مشخص کنیم کدام تایتل ها انتخاب بشن*/
+/*
+p[title="test"] {
+	color:blue;
+}
+*/
+/* the profesional programmers actually at the first of the project
+select all of the screen and work with that
+for example:
+* {
+	font-family:iransans;
+	text-decoration:none;
+}
+*/
+}
 
 
 
