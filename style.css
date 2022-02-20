@@ -180,12 +180,65 @@ for example:
 }
 */
 }
-
-
-
-
-
-
-
-
-
+.activeclass:active {
+	color: aliceblue;
+	background-color: darkblue;
+}
+.hovertest {
+	background-color: aqua;
+	width: 80px;
+	height: 80px;
+}
+.hovertest:hover { /* hover */
+	background-color:crimson
+}
+ul li:first-child {
+	background-color: gold;
+/* دراینجا عنصر اول این خصوصیات را دارد*/
+}
+.cc18::before {
+	content: "This is before";
+	background-color: darkred;
+	color: bisque;
+}
+.cc18::after {
+	content: "This is after";
+	background-color: darkred;
+	color: bisque;
+}
+.cc19::selection{
+	color: aliceblue;
+	background-color:red;
+}
+input[type="text"] {
+	background-color: chartreuse;
+	color: black;
+	padding: 3px;
+	border: 2px solid red;
+	border-radius: 15px;
+}
+h3 {
+	color:darkgreen !important
+}
+.mr {
+	color:red
+/* ما در اینجا همزمان به
+ همان تگ اچ2 اشاره کردیم
+ ولی با همون تغییری که در 
+ اچ3 دادیم (important)
+ ارجعیت پیدا کرد اون
+ */
+}
+.cc20 { /* cc20 */
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+	opacity: 0.4;
+}
+div.cc21 {
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	box-shadow: 21px 8px 4px 5px #bbb;
+}
