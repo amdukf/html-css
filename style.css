@@ -242,3 +242,27 @@ div.cc21 {
 	background-color: black;
 	box-shadow: 21px 8px 4px 5px #bbb;
 }
+.cc22 {
+	font-size: 30px;
+	background-color:blue;
+	color:#fff;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 3px;
+	transition: all ease 0.3s;
+}
+.cc22:hover {
+	background-color:#fff;
+	color: blue;
+}
+.cc23 {
+	width: 100px;
+	height: 100px;
+	background-color: darkblue;
+	position: relative;
+	animation: test 2s infinite alternate;
+}
+@keyframes test {
+	from {left: 0px;}
+	to {left: 300px;}
+}
