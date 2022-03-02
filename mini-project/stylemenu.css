@@ -1,0 +1,31 @@
+ul {
+    background-color: darkslategray;
+    padding: 5px;
+    margin: 0px;
+    overflow: hidden;
+    height: 65px;
+    border-radius: 10px;
+}
+li {
+    list-style-type: none;
+    float: left;
+}
+ul li a {
+    display: block;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 0px 100px;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+}
+ul li a:hover {
+    background-color:yellow;
+    color: black;
+}
+img {
+    width: 60px;
+    height: 60px;
+    transform:translate(190px , 2px);
+}
